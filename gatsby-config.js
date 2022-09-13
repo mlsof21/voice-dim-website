@@ -1,3 +1,6 @@
+require("dotenv").config({
+  path: `.env`,
+})
 module.exports = {
   siteMetadata: {
     title: `Voice DIM`,
@@ -46,6 +49,13 @@ module.exports = {
         // theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/images/favicon.png`, // This path is relative to the root of the site.
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        // The property ID; the tracking code won't be generated without it
+        trackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID,
       },
     },
   ],
