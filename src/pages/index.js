@@ -8,6 +8,7 @@ const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
     <div className={styles.textCenter}>
+      <span> This site is still a work in progress </span>
       <h1 style={{ marginBottom: "10px" }}>Features</h1>
       <span>
         Use Voice DIM to interact with DIM without ever leaving your game! Using
