@@ -1,3 +1,6 @@
+require("dotenv").config({
+  path: ".env",
+})
 module.exports = {
   siteMetadata: {
     title: `Voice DIM`,
@@ -68,7 +71,6 @@ module.exports = {
           // Setting this parameter is also optional
           respectDNT: true,
           // Defaults to https://www.googletagmanager.com
-          origin: "https://www.voicedim.com",
         },
       },
     },
