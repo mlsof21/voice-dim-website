@@ -1,0 +1,11 @@
+<script src="https://cdn.jsdelivr.net/gh/tutts/google-sites-markdown/index.js"></script>
+<script type="module">
+  fetch(
+    "https://raw.githubusercontent.com/mlsof21/DIMWishlistBuilder/main/CHANGELOG.md"
+  ).then(response => {
+    response.text().then(body => {
+      console.log({ body })
+      markdown`${body}`
+    })
+  })
+</script>

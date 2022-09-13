@@ -1,9 +1,27 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
+    title: `Voice DIM`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    author: `mlsof21`,
+    siteUrl: `https://www.voicedim.com`,
+    menuLinks: [
+      {
+        name: "Home",
+        link: "/",
+      },
+      {
+        name: "Download",
+        link: "https://chrome.google.com/webstore/detail/voice-dim/ldfeegohcppbkbmiefdcjcbdmjikpead",
+      },
+      {
+        name: "Changelogs",
+        link: "/changelogs",
+      },
+      {
+        name: "About",
+        link: "/about",
+      },
+    ],
   },
   plugins: [
     `gatsby-plugin-image`,
@@ -27,7 +45,7 @@ module.exports = {
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },
     },
   ],
