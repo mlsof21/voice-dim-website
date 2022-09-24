@@ -5,8 +5,12 @@ import Seo from "../components/seo"
 
 const About = () => (
   <Layout>
-    <h1>About Me</h1>
-    <p>Just a guy that enjoys doing fun projects like this one.</p>
+    <h1>About</h1>
+    <p>
+      AsDevilsRun (the main Voice DIM QA) and I (Sherret, the dev) are avid
+      Destiny players. Devils is the ideas man while I try to develop them. I
+      written countless scripts to help some of these ideas come to fruition.
+    </p>
   </Layout>
 )
 

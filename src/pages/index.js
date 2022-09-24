@@ -2,15 +2,18 @@ import * as React from "react"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import * as styles from "../components/index.module.css"
 
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    <div className={styles.textCenter}>
-      <span> This site is still a work in progress </span>
+    <div>
       <h1 style={{ marginBottom: "10px" }}>Features</h1>
+      <p> This site is still a work in progress </p>
+      <br />
       <span>
+        The meme is real! Leopard has memed using voice-controlled DIM for
+        years, but now it's real!
+        <br />
         Use Voice DIM to interact with DIM without ever leaving your game! Using
         a simple shortcut (defaulted to <code>Ctrl+Shift+0</code>), say what you
         need to happen in DIM (<code>Transfer Gjallarhorn</code>), and you'll
@@ -28,7 +31,10 @@ const IndexPage = () => (
       <li>Equip max power</li>
       <li>Collect postmaster</li>
       <li>Start/Stop farming mode</li>
-      <li>Set your own custom commands</li>
+      <li>
+        Set your own custom commands (click on the Voice DIM icon in your
+        extension toolbar).
+      </li>
     </ul>
   </Layout>
 )

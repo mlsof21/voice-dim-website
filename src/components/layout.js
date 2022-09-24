@@ -43,6 +43,10 @@ const Layout = ({ children }) => {
         style={{
           marginTop: `var(--space-5)`,
           fontSize: `var(--font-sm)`,
+          position: "absolute",
+          // bottom: 0,
+          width: "100%",
+          height: "2.5rem",
         }}
       >
         © {new Date().getFullYear()} &middot; Built with

@@ -7,6 +7,7 @@ import Seo from "../components/seo"
 
 const Changelogs = () => {
   const [changelogs, setChangelogs] = useState()
+  const [isLoading, setIsLoading] = useState(true)
   useEffect(() => {
     const fetchChangelog = async () => {
       const response = await fetch(
@@ -15,14 +16,18 @@ const Changelogs = () => {
       const body = await response.text()
 
       setChangelogs(body)
+      setIsLoading(false)
     }
     fetchChangelog()
   }, [changelogs, setChangelogs])
 
   return (
-    <Layout>
-      <Markdown value={changelogs} />
-    </Layout>
+    !isLoading && (
+      <Layout>
+        <h1>Changelog</h1>
+        <Markdown value={changelogs} />
+      </Layout>
+    )
   )
 }
 

@@ -37,7 +37,9 @@ const Header = ({ menuLinks }) => (
               padding: "1rem",
               marginTop: ".5rem",
               borderRight:
-                index !== menuLinks.length - 1 ? "solid 1px white" : "",
+                index !== menuLinks.length - 1
+                  ? "solid 1px var(--color-dim-orange)"
+                  : "",
             }}
           >
             {link.name.includes("Download") ? (
@@ -60,6 +62,7 @@ const Header = ({ menuLinks }) => (
                   fontSize: "1.5rem",
                   textDecoration: "none",
                 }}
+                activeClassName="active"
                 to={link.link}
               >
                 {link.name}

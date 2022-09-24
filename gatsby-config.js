@@ -17,8 +17,12 @@ module.exports = {
         link: "https://chrome.google.com/webstore/detail/voice-dim/ldfeegohcppbkbmiefdcjcbdmjikpead",
       },
       {
-        name: "Changelogs",
-        link: "/changelogs",
+        name: "Help",
+        link: "/help",
+      },
+      {
+        name: "Changelog",
+        link: "/changelog",
       },
       {
         name: "About",
