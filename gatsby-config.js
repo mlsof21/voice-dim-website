@@ -4,7 +4,7 @@ require("dotenv").config({
 module.exports = {
   siteMetadata: {
     title: `Voice DIM`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `Interact with DIM using voice commands`,
     author: `mlsof21`,
     siteUrl: `https://www.voicedim.com`,
     menuLinks: [

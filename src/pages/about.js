@@ -9,7 +9,8 @@ const About = () => (
     <p>
       AsDevilsRun (the main Voice DIM QA) and I (Sherret, the dev) are avid
       Destiny players. Devils is the ideas man while I try to develop them. I
-      written countless scripts to help some of these ideas come to fruition.
+      have written countless scripts to help some of these ideas come to
+      fruition.
     </p>
   </Layout>
 )
