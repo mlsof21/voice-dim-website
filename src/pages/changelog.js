@@ -11,7 +11,7 @@ const Changelogs = () => {
   useEffect(() => {
     const fetchChangelog = async () => {
       const response = await fetch(
-        "https://raw.githubusercontent.com/mlsof21/voice-dim/master/CHANGELOG.md"
+        "https://raw.githubusercontent.com/mlsof21/voice-dim/release/CHANGELOG.md"
       )
       const body = await response.text()
 
